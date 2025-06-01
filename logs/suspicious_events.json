@@ -1,0 +1,955 @@
+{
+  "event": "login_attempt",
+  "role": "USER",
+  "userId": "user1",
+  "source": "192.168.0.10",
+  "timestamp": "2025-06-01T17:29:20.151105",
+  "context": {
+    "success": false
+  },
+  "alert": false
+},
+
+{
+  "event": "login_attempt",
+  "role": "USER",
+  "userId": "user1",
+  "source": "192.168.0.10",
+  "timestamp": "2025-06-01T17:29:21.155825",
+  "context": {
+    "success": false
+  },
+  "alert": false
+},
+
+{
+  "event": "login_attempt",
+  "role": "USER",
+  "userId": "user1",
+  "source": "192.168.0.10",
+  "timestamp": "2025-06-01T17:29:22.166828",
+  "context": {
+    "success": false
+  },
+  "alert": false
+},
+
+{
+  "event": "login_attempt",
+  "role": "USER",
+  "userId": "user1",
+  "source": "192.168.0.10",
+  "timestamp": "2025-06-01T17:29:23.172471",
+  "context": {
+    "success": false
+  },
+  "alert": false
+},
+
+{
+  "event": "login_attempt",
+  "role": "USER",
+  "userId": "user1",
+  "source": "192.168.0.10",
+  "timestamp": "2025-06-01T17:29:24.186105",
+  "context": {
+    "success": false
+  },
+  "alert": false
+},
+
+{
+  "event": "login_attempt",
+  "role": "USER",
+  "userId": "user1",
+  "source": "192.168.0.10",
+  "timestamp": "2025-06-01T17:29:25.190002",
+  "context": {
+    "success": false
+  },
+  "alert": true,
+  "reason": "Too many failed login attempts"
+},
+
+{
+  "event": "power_reading",
+  "role": "SYSTEM",
+  "userId": "sys1",
+  "source": "power-1",
+  "timestamp": "2025-06-01T17:29:26.204886",
+  "context": {
+    "value": 100
+  },
+  "alert": false
+},
+
+{
+  "event": "power_reading",
+  "role": "SYSTEM",
+  "userId": "sys1",
+  "source": "power-1",
+  "timestamp": "2025-06-01T17:29:26.204886",
+  "context": {
+    "value": 101
+  },
+  "alert": false
+},
+
+{
+  "event": "power_reading",
+  "role": "SYSTEM",
+  "userId": "sys1",
+  "source": "power-1",
+  "timestamp": "2025-06-01T17:29:26.204886",
+  "context": {
+    "value": 102
+  },
+  "alert": false
+},
+
+{
+  "event": "power_reading",
+  "role": "SYSTEM",
+  "userId": "sys1",
+  "source": "power-1",
+  "timestamp": "2025-06-01T17:29:26.206057",
+  "context": {
+    "value": 103
+  },
+  "alert": false
+},
+
+{
+  "event": "power_reading",
+  "role": "SYSTEM",
+  "userId": "sys1",
+  "source": "power-1",
+  "timestamp": "2025-06-01T17:29:26.206057",
+  "context": {
+    "value": 104
+  },
+  "alert": false
+},
+
+{
+  "event": "power_reading",
+  "role": "SYSTEM",
+  "userId": "sys1",
+  "source": "power-1",
+  "timestamp": "2025-06-01T17:29:26.206057",
+  "context": {
+    "value": 180
+  },
+  "alert": true,
+  "reason": "Abnormal power usage"
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:26.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:28.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:30.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:32.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:34.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:36.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:38.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:40.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:42.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:44.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:46.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin1",
+  "source": "device-X",
+  "timestamp": "2025-06-01T14:00:48.206057",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:26.208181",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:28.208181",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:30.208181",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:32.208181",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:34.208181",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:36.208181",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:38.208181",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:40.208181",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:42.208181",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:44.208181",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:46.208181",
+  "context": {},
+  "alert": true,
+  "reason": "Device control spam detected"
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin2",
+  "source": "device-Y",
+  "timestamp": "2025-06-01T02:00:48.208181",
+  "context": {},
+  "alert": true,
+  "reason": "Device control spam detected"
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:26.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:28.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:30.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:32.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:34.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:36.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:38.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:40.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:42.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:44.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "MANAGER",
+  "userId": "manager1",
+  "source": "device-Z",
+  "timestamp": "2025-06-01T10:30:46.210535",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:26.212876",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:28.212876",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:30.212876",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:32.212876",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:34.212876",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:36.212876",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:38.212876",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:40.212876",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:42.212876",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:44.212876",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:46.212876",
+  "context": {},
+  "alert": true,
+  "reason": "Device control spam detected"
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user9",
+  "source": "device-W",
+  "timestamp": "2025-06-01T11:15:48.212876",
+  "context": {},
+  "alert": true,
+  "reason": "Device control spam detected"
+},
+
+{
+  "event": "session_start",
+  "role": "USER",
+  "userId": "user8",
+  "source": "system",
+  "timestamp": "2025-06-01T17:29:26.215669",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "role_change",
+  "role": "SYSTEM",
+  "userId": "user8",
+  "source": "system",
+  "timestamp": "2025-06-01T17:29:27.220030",
+  "context": {
+    "old_role": "USER",
+    "new_role": "ADMIN"
+  },
+  "alert": true,
+  "reason": "Role changed during active session"
+},
+
+{
+  "event": "access_sensitive",
+  "role": "USER",
+  "userId": "user5",
+  "source": "192.168.0.99",
+  "timestamp": "2025-06-01T17:29:27.221081",
+  "context": {},
+  "alert": true,
+  "reason": "Access without active session"
+},
+
+{
+  "event": "thermostat_change",
+  "role": "USER",
+  "userId": "user3",
+  "source": "thermostat-3",
+  "timestamp": "2025-06-01T17:29:27.221081",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "thermostat_change",
+  "role": "USER",
+  "userId": "user3",
+  "source": "thermostat-3",
+  "timestamp": "2025-06-01T17:29:28.221551",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "thermostat_change",
+  "role": "USER",
+  "userId": "user3",
+  "source": "thermostat-3",
+  "timestamp": "2025-06-01T17:29:29.225804",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "thermostat_change",
+  "role": "USER",
+  "userId": "user3",
+  "source": "thermostat-3",
+  "timestamp": "2025-06-01T17:29:30.239773",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "thermostat_change",
+  "role": "USER",
+  "userId": "user3",
+  "source": "thermostat-3",
+  "timestamp": "2025-06-01T17:29:31.240847",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "thermostat_change",
+  "role": "USER",
+  "userId": "user3",
+  "source": "thermostat-3",
+  "timestamp": "2025-06-01T17:29:32.255354",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "thermostat_change",
+  "role": "USER",
+  "userId": "user3",
+  "source": "thermostat-3",
+  "timestamp": "2025-06-01T17:29:33.256994",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "thermostat_change",
+  "role": "USER",
+  "userId": "user3",
+  "source": "thermostat-3",
+  "timestamp": "2025-06-01T17:29:34.257973",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "thermostat_change",
+  "role": "USER",
+  "userId": "user3",
+  "source": "thermostat-3",
+  "timestamp": "2025-06-01T17:29:35.270892",
+  "context": {},
+  "alert": true,
+  "reason": "Suspicious thermostat adjustment frequency"
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:36.272677",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:36.780864",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:37.286360",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:37.801210",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:38.312513",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:38.824483",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:39.324812",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:39.837929",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:40.341906",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:40.851188",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:41.364477",
+  "context": {},
+  "alert": true,
+  "reason": "Device control spam detected"
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user2",
+  "source": "device-5",
+  "timestamp": "2025-06-01T17:29:41.870052",
+  "context": {},
+  "alert": true,
+  "reason": "Device control spam detected"
+},
+
+{
+  "event": "toggle_device",
+  "role": "ADMIN",
+  "userId": "admin-ok",
+  "source": "device-1",
+  "timestamp": "2025-06-01T10:00:42.371448",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "login_attempt",
+  "role": "USER",
+  "userId": "user10",
+  "source": "192.168.0.20",
+  "timestamp": "2025-06-01T17:29:42.372451",
+  "context": {
+    "success": true
+  },
+  "alert": false
+},
+
+{
+  "event": "power_reading",
+  "role": "SYSTEM",
+  "userId": "sys-ok",
+  "source": "power-ok",
+  "timestamp": "2025-06-01T17:29:42.373962",
+  "context": {
+    "value": 100.0
+  },
+  "alert": false
+},
+
+{
+  "event": "thermostat_change",
+  "role": "USER",
+  "userId": "user10",
+  "source": "thermostat-1",
+  "timestamp": "2025-06-01T17:29:42.374512",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "toggle_device",
+  "role": "USER",
+  "userId": "user10",
+  "source": "device-2",
+  "timestamp": "2025-06-01T17:29:42.374512",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "role_change",
+  "role": "SYSTEM",
+  "userId": "user11",
+  "source": "system",
+  "timestamp": "2025-06-01T17:29:42.375690",
+  "context": {
+    "old_role": "USER",
+    "new_role": "MANAGER"
+  },
+  "alert": false
+},
+
+{
+  "event": "session_start",
+  "role": "USER",
+  "userId": "user10",
+  "source": "192.168.0.20",
+  "timestamp": "2025-06-01T17:29:42.375690",
+  "context": {},
+  "alert": false
+},
+
+{
+  "event": "access_sensitive",
+  "role": "USER",
+  "userId": "user10",
+  "source": "192.168.0.20",
+  "timestamp": "2025-06-01T17:34:42.375690",
+  "context": {},
+  "alert": false
+},
+
