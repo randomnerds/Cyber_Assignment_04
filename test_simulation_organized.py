@@ -6,36 +6,36 @@ from attack_detector import instrument
 # ========== NORMAL BEHAVIOR TESTS ==========
 
 def simulate_normal_login():
-    print("✅ Simulating normal login...")
+    print("Simulating normal login...")
     instrument("login_attempt", "USER", "user10", "192.168.0.20", datetime.now(), {"success": True})
 
 def simulate_normal_toggle():
-    print("✅ Simulating normal toggle...")
+    print("Simulating normal toggle...")
     instrument("toggle_device", "USER", "user10", "device-2", datetime.now(), {})
 
 def simulate_normal_power_reading():
-    print("✅ Simulating normal power reading...")
+    print("Simulating normal power reading...")
     instrument("power_reading", "SYSTEM", "sys-ok", "power-ok", datetime.now(), {"value": 100.0})
 
 def simulate_session_access():
-    print("✅ Simulating access with valid session...")
+    print("Simulating access with valid session...")
     now = datetime.now()
     instrument("session_start", "USER", "user10", "192.168.0.20", now, {})
     instrument("access_sensitive", "USER", "user10", "192.168.0.20", now + timedelta(minutes=10), {})
 
 def simulate_normal_thermostat_use():
-    print("✅ Simulating single thermostat use...")
+    print("Simulating single thermostat use...")
     instrument("thermostat_change", "USER", "user10", "thermostat-1", datetime.now(), {})
 
 def simulate_role_change_without_session():
-    print("✅ Simulating role change without active session...")
+    print("Simulating role change without active session...")
     instrument("role_change", "SYSTEM", "user11", "system", datetime.now(), {
         "old_role": "USER",
         "new_role": "MANAGER"
     })
 
 def simulate_admin_toggle_during_business_hours():
-    print("✅ Simulating ADMIN toggle during business hours...")
+    print("Simulating ADMIN toggle during business hours...")
     t = datetime.now().replace(hour=10, minute=0)
     instrument("toggle_device", "ADMIN", "admin-ok", "device-1", t, {})
 
@@ -43,35 +43,35 @@ def simulate_admin_toggle_during_business_hours():
 # ========== ABNORMAL BEHAVIOR TESTS ==========
 
 def simulate_failed_logins():
-    print("❌ Simulating failed logins (should trigger alert)...")
+    print("Simulating failed logins (should trigger alert)...")
     for _ in range(6):
         instrument("login_attempt", "USER", "user1", "192.168.0.10", datetime.now(), {"success": False})
         time.sleep(5)
 
 def simulate_toggle_spam():
-    print("❌ Simulating toggle spam (should trigger alert)...")
+    print("Simulating toggle spam (should trigger alert)...")
     for _ in range(12):
         instrument("toggle_device", "USER", "user2", "device-5", datetime.now(), {})
         time.sleep(2)
 
 def simulate_power_spike():
-    print("❌ Simulating power spike (should trigger alert)...")
+    print("Simulating power spike (should trigger alert)...")
     for i in range(100):
         instrument("power_reading", "SYSTEM", "sys1", "power-1", datetime.now(), {"value": 100 + i % 5})
     instrument("power_reading", "SYSTEM", "sys1", "power-1", datetime.now(), {"value": 180})
 
 def simulate_sessionless_access():
-    print("❌ Simulating access without session (should trigger alert)...")
+    print("Simulating access without session (should trigger alert)...")
     instrument("access_sensitive", "USER", "user5", "192.168.0.99", datetime.now(), {})
 
 def simulate_thermostat_spam():
-    print("❌ Simulating thermostat spam (should trigger alert)...")
+    print("Simulating thermostat spam (should trigger alert)...")
     for _ in range(9):
         instrument("thermostat_change", "USER", "user3", "thermostat-3", datetime.now(), {})
         time.sleep(4)
 
 def simulate_role_aware_toggle_spam():
-    print("❌ Simulating role-aware toggle spam...")
+    print("Simulating role-aware toggle spam...")
 
     # Admin during business hours (allowed)
     print("  ➜ ADMIN during business hours (should NOT alert)")
@@ -102,7 +102,7 @@ def simulate_role_aware_toggle_spam():
         t4 += timedelta(seconds=2)
 
 def simulate_role_change_during_session():
-    print("❌ Simulating role change during active session (should trigger alert)...")
+    print("Simulating role change during active session (should trigger alert)...")
     user_id = "user8"
     session_time = datetime.now()
     instrument("session_start", "USER", user_id, "system", session_time, {})
@@ -134,4 +134,4 @@ if __name__ == "__main__":
     simulate_role_aware_toggle_spam()
     simulate_role_change_during_session()
 
-    print("\n✅ Finished all simulations. Check logs/suspicious_events.json for alerts.")
+    print("\nFinished all simulations. Check logs/suspicious_events.json for alerts.")
